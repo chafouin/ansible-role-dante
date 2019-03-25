@@ -1,0 +1,8 @@
+---
+
+- name: Install Dante proxy
+  package:
+    pkg: dante-server
+    state: present
+  tags: dante
+
